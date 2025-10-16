@@ -1,0 +1,64 @@
+.main_div {
+  padding: 10px;
+  background-color: #4A5B6D;
+  width: 350px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image_card {
+  background-color: red;
+  border-radius: 110px;
+}
+
+.para_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 15px;
+}
+.curved_svg {
+  width: 100%;
+  height: 170px; 
+  padding-top: 10px;
+  display: block;
+  margin-bottom: -130px; 
+}
+
+.curved_text {
+  font-size: 15px;
+  font-style: Semi Bold;
+  fill: #FFFFFF;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.para_2 {
+  font-weight: 400;
+  font-size: 20.3px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.para_3 {
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 23.34px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  text-decoration-skip-ink: auto;
+  color: #FFFFFF;
+
+}

@@ -1,0 +1,67 @@
+.pageNumber {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    width: 30%;
+}
+
+.backButton {
+    background-color: white;
+    width: 100px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px solid #1111111A;
+}
+
+.nextButton {
+    background-color: #6F98B9;
+    width: 100px;
+    height: 48px;
+    border: none;
+    border-radius: 100px;
+}
+
+.activenumber {
+    height: 48px;
+    width: 48px;
+    border: none;
+    border-radius: 28px;
+    background-color: #6F98B9;
+}
+
+.number {
+    height: 48px;
+    width: 48px;
+    border-radius: 28px;
+    background-color: white;
+    border: 1px solid #1111111A;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+
+}
+
+.number_p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+
+}
+
+.activenumber_p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: white;
+}

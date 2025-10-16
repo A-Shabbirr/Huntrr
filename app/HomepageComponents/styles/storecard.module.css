@@ -1,0 +1,57 @@
+.storecard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #F3F4F6;
+    width: 23%;
+    height: 440px;
+    gap: 80px;
+}
+
+.image_div {
+    height: 218px;
+    width: 80%;
+}
+
+.place_image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.paraDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+    height: 58px;
+}
+
+.para1 {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #111111;
+}
+
+.para2 {
+    color: #353934;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    width: 100%;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}

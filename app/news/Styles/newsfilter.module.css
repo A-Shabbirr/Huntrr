@@ -1,0 +1,18 @@
+.p_filter {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    border: 1px solid #1111111A;
+    padding: 0px 5px;
+    min-width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,0 +1,12 @@
+.FooterButtons {
+    border: none;
+    height: 40px;
+    width: 35%;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button_logo {
+    object-fit: contain;
+    /* width: 100%; */
+}

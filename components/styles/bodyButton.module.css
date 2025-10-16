@@ -1,0 +1,22 @@
+.bodyButton {
+    font-weight: 600;
+    background-color: #A72C2C;
+    color: white;
+    border: none;
+    width: 25%;
+    border: none;
+    height: 52px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.para_b {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    line-height: 124%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+
+}

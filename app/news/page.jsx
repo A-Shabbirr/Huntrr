@@ -27,16 +27,16 @@ const page = () => {
                     </div>
                 </div>
                 <div className={styles.news_f}>
-                    <NewsFilter para='Filter & Sort by' />
-                    <NewsFilter para='Latest' />
-                    <NewsFilter para='Trending Now' />
-                    <NewsFilter para='Adventure' />
-                    <NewsFilter para='Outdoor' />
-                    <NewsFilter para='Food & Drink' />
-                    <NewsFilter para='Shopping' />
-                    <NewsFilter para='Editors Choice' />
-                    <NewsFilter para='Cafe' />
-                    <NewsFilter para='5 Star Hotel' />
+                    <NewsFilter w={false} para='Filter & Sort by' />
+                    <NewsFilter w={false} para='Latest' />
+                    <NewsFilter w={false} para='Trending Now' />
+                    <NewsFilter w={false} para='Adventure' />
+                    <NewsFilter w={false} para='Outdoor' />
+                    <NewsFilter w={false} para='Food & Drink' />
+                    <NewsFilter w={false} para='Shopping' />
+                    <NewsFilter w={false} para='Editors Choice' />
+                    <NewsFilter w={false} para='Cafe' />
+                    <NewsFilter w={false} para='5 Star Hotel' />
                     <div className={styles.arrow_f}>
                         <svg className={styles.arrow} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width='15' height='15'>
                             <path d="M147.7 98.5C164 91.7 182.7 99.4 189.5 115.7L320 428.8L450.5 115.7C457.3 99.4 476 91.7 492.3 98.5C508.6 105.3 516.3 124 509.5 140.3L349.5 524.3C344.5 536.2 332.9 544 320 544C307.1 544 295.4 536.2 290.5 524.3L130.5 140.3C123.7 124 131.4 105.3 147.7 98.5z" />

@@ -1,3 +1,4 @@
+
 import styles from "./page.module.css";
 import Button from "@/components/Button";
 import Hero from "@/components/Hero";
@@ -8,6 +9,8 @@ import Editor_card from "./HomepageComponents/Editor_card";
 import Place from "./HomepageComponents/place";
 import PublishCard from "./HomepageComponents/PublishCard";
 import Storecard from "./HomepageComponents/Storecard";
+import Publish_section from "./HomepageComponents/Publish_section";
+import Guide from "./HomepageComponents/Guide";
 
 export default function Home() {
   return (
@@ -79,33 +82,8 @@ export default function Home() {
           <p className={styles.circle_p}>out</p>
         </div>
       </div>
-      <div className={styles.published_section}>
-        <div className={styles.published_top}>
-          <p className={styles.published_top_head_p}>Newly Published in the Directory</p>
-          <p className={styles.published_top_head_vm}>view more</p>
-        </div>
-        <div className={styles.published_bottom}>
-          <div className={styles.published_bottom1}>
-            <div className={styles.published_bottom1_cont}>
-              <p className={styles.published_bottom1_p1}>NIGHTLIFE IN DUBAI</p>
-              <p className={styles.published_bottom1_p2}>Bolle Dubai: The best Nordic cinnamon rolls and homemade bakes in Al Manara</p>
-              <p className={styles.published_bottom1_p3}>Fresh-baked Scandinavian treats in Dubai: From cardamom-spiced cinnamon rolls to za'atar buns, ...</p>
-            </div>
-            <div className={styles.published_bottom1_image}>
-              <Image className={styles.bottom1_image}
-                src='/publish_image.png'
-                alt='places'
-                width={900}
-                height={800}
-                quality={100} />
-            </div>
-          </div>
-          <div className={styles.published_bottom2}>
-            <PublishCard src='/cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
-            <PublishCard src='/cafe2.png' para1="RESTAURANT IN ABU DHABI" />
-            <PublishCard src='/cafe3.png' para1="CAFE IN SHARJAH" />
-          </div>
-        </div>
+      <div className={styles.publish}>
+        <Publish_section heading="Newly Published in the Directory" />
       </div>
       <div className={styles.news_section}>
         <div className={styles.news_head}>
@@ -152,59 +130,16 @@ export default function Home() {
         </div>
         <Button para="view more" />
       </div>
-      <div className={styles.guide}>
-        <div className={styles.guide_top}>
-          <div className={styles.guide_para}>
-            <p className={styles.published_top_head_p}>The latest curated guides</p>
-            <p className={styles.published_top_head_vm}>view more</p>
-          </div>
-          <div className={styles.filter_g}>
-            <p className={styles.f_g_1}>Cafes</p>
-            <p className={styles.f_g_1}>Hidden Gems</p>
-            <p className={styles.f_g_1}>Entertainment</p>
-          </div>
-        </div>
-        <div className={styles.filter_image_div}>
-          <div className={styles.explore_circle}>Explore</div>
-          <div className={styles.f_i_1}>
-            <div className={styles.explore1}>20 Places</div>
-            <Image className={styles.guide_image}
-              src='/guide1.png'
-              alt='place guide 1'
-              width={1000}
-              height={1000} />
-            <div className={styles.guide_image_para_div}>
-              <p className={styles.g_i_para1}>La Petite Café</p>
-              <p className={styles.g_i_para}>Cozy brunch spot with the best croissants in town.</p>
-            </div>
-          </div>
-          <div className={styles.f_i_2}>
-            <div className={styles.f_g_2a}>
-              <div className={styles.explore}>20 Places</div>
-              <Image className={styles.guide_image2}
-                src='/guide2a.png'
-                alt='place guide 2'
-                width={1000}
-                height={1000} />
-              <div className={styles.guide_image_para_div}>
-                <p className={styles.g_i_para1}>La Petite Café</p>
-                <p className={styles.g_i_para}>Cozy brunch spot with the best croissants in town.</p>
-              </div>
-            </div>
-            <div className={styles.f_g_2a}>
-              <div className={styles.explore}>20 Places</div>
-              <Image className={styles.guide_image2}
-                src='/guide2b.png'
-                alt='place guide 3'
-                width={1000}
-                height={1000} />
-              <div className={styles.guide_image_para_div}>
-                <p className={styles.g_i_para1}>La Petite Café</p>
-                <p className={styles.g_i_para}>Cozy brunch spot with the best croissants in town.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className={styles.home_guide}>
+        <Guide
+          heading='The latest curated guides'
+          para1a='La Petite Café'
+          para1b='Cozy brunch spot with the best croissants in town.'
+          para2a='La Petite Café'
+          para2b='Cozy brunch spot with the best croissants in town.'
+          explore='20 Places'
+          dir={false}
+        />
       </div>
       <div className={styles.maroon}>
         <div className={styles.maroon_para}>
@@ -239,7 +174,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }

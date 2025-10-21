@@ -1,18 +1,50 @@
 .p_filter {
+    white-space: nowrap;
     font-weight: 400;
     font-style: Regular;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0%;
     vertical-align: bottom;
-    border: 1px solid #1111111A;
-    padding: 0px 5px;
+    text-align: center;
+    color: 1111111;
+}
+
+.filter {
     min-width: 100px;
+    border: 1px solid #1111111A;
+    border-radius: 100px;
+    height: 40px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.filter_w {
+    border: 1px solid #FCFCFD;
+    border-radius: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
     height: 40px;
     border-radius: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    min-width: 100px;
+}
+
+.p_filter_w {
+    text-align: center;
+    color: #FCFCFD;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    width: 100%;
 }

@@ -30,7 +30,7 @@ const BurgerMenu = () => {
             {
                 isOpen && (
                     <div className={styles.veil}>
-                        <div className={styles.close} onClick={toggleMenu}>
+                        <div className={styles.close} >
                             <>
                                 <Image
                                     className={styles.menuImage}
@@ -40,7 +40,7 @@ const BurgerMenu = () => {
                                     height={300}
                                     quality={100} />
                             </>
-                            <>×</>
+                            <p onClick={toggleMenu}>×</p>
                         </div>
                         <div className={styles.menuList}>
                             <div className={styles.menu}>

@@ -1,22 +1,38 @@
+'use client'
 import React from 'react';
 import styles from "../Header/Header.module.css";
 import Image from 'next/image';
 import BurgerMenu from './Components/BurgerMenu';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
+
 
 const Header = () => {
+    const pathname = usePathname();
+    const isDirectory = pathname.startsWith('/directory')
     return (
         <div className={styles.header}>
             <div className={styles.navbar}>
-                <Image
-                    src="/logo.png"
-                    alt="Hunterr"
-                    width={132}
-                    height={32}
-                />
+                <Link href="/"
+                    className={styles.logo}
+                >
+                    <Image src={isDirectory ? "/dir_logo.png" : "/logo.png"}
+                        alt="Hunterr"
+                        width={isDirectory ? 50 : 132}
+                        height={isDirectory ? 60 : 32}
+                    />
+                </Link>
                 <div className={styles.center}>
-                    <h6 className={styles.center_heading}>the Directory</h6>
-                    <h6 className={styles.center_heading}>News</h6>
-                    <h6 className={styles.center_heading}>Membership</h6>
+                    <Link href="/directory">
+                        <h6 className={styles.center_heading}>the Directory</h6>
+                    </Link>
+                    <Link href="/news">
+                        <h6 className={styles.center_heading}>News</h6>
+                    </Link>
+                    <Link href="/membership">
+                        <h6 className={styles.center_heading}>Membership</h6>
+                    </Link>
                 </div>
                 <div className={styles.last}>
                     <svg xmlns="http://www.w3.org/2000/svg"

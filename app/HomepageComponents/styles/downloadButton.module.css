@@ -1,0 +1,39 @@
+.downloadButton {
+    padding: 0px 43px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.main_heading {
+    width: 48%;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 124%;
+}
+
+.span {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 52px;
+    line-height: 130%;
+}
+
+.sub_head {
+    width: 35%;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 15px;
+
+}
+
+.app_button {
+    width: 100%;
+    margin-top: 20px;
+}
+

@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from "../components/styles/bodyButton.module.css";
 
-const Button = ({ para = '' }) => {
+const Button = ({ para = '', mbr = false }) => {
     return (
-        <button className={styles.bodyButton}>
-            <p className={styles.para_b}>{para}</p>
+        <button className={mbr ? styles.bodyButton_mbr : styles.bodyButton}>
+            <p className={mbr ? styles.para_b_mbr : styles.para_b}>{para}</p>
         </button>
     );
 }

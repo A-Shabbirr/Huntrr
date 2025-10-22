@@ -1,0 +1,75 @@
+.Fourth {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 120px 0px;
+    background-color: #4A5B6D;
+}
+
+.fourth_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    padding: 0px 40px;
+
+}
+
+.p {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 44px;
+    line-height: 132%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.p span {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 44px;
+    line-height: 132%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+
+}
+
+.para_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+
+}
+
+.para {
+    margin-top: 80px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 36.79px;
+    line-height: 132%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+
+}
+
+.para:hover {
+    color: yellow;
+}
+
+.span {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #FFFFFF;
+}

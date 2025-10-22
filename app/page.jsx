@@ -7,10 +7,12 @@ import Content from "./HomepageComponents/content";
 import Input from "@/components/input";
 import Editor_card from "./HomepageComponents/Editor_card";
 import Place from "./HomepageComponents/place";
-import PublishCard from "./HomepageComponents/PublishCard";
 import Storecard from "./HomepageComponents/Storecard";
 import Publish_section from "./HomepageComponents/Publish_section";
 import Guide from "./HomepageComponents/Guide";
+import DownloadButton from "./HomepageComponents/DownloadButton";
+import HomeNews from "./HomepageComponents/HomeNews";
+import Maroon from './HomepageComponents/Maroon';
 
 export default function Home() {
   return (
@@ -18,13 +20,7 @@ export default function Home() {
       <div className={styles.top}>
         <Hero src='/Homepage_cover.jpg' alt='Dowload our App' />
       </div>
-      <div className={styles.downloadButton}>
-        <p className={styles.main_heading}>Unlock the Best of UAE with <span className={styles.span}>the</span> HUNTR </p>
-        <p className={styles.sub_head}>Your insider guide to the city’s top restaurants, hidden gems, and exclusive experiences.</p>
-        <div className={styles.app_button}>
-          <Button para="Download App" />
-        </div>
-      </div>
+      <DownloadButton />
       <div className={styles.overview}>
         <Content
           para='GUIDES'
@@ -85,38 +81,7 @@ export default function Home() {
       <div className={styles.publish}>
         <Publish_section heading="Newly Published in the Directory" />
       </div>
-      <div className={styles.news_section}>
-        <div className={styles.news_head}>
-          <p className={styles.news_top_head_p}>Latest News</p>
-          <p className={styles.news_top_head_vm}>view more</p>
-        </div>
-        <div className={styles.news_top}>
-          <PublishCard
-            src='/cafe1.png'
-            para1="FOOD & DRINK"
-            para2="Join the HUNTR for an exclusive preview of the One&Only Royal Mirage iftar experience"
-            para3="For those seeking a different ambiance, the Arabian Courtyard presents a bespoke Ramadan majlis beneath the stars..."
-          />
-          <PublishCard
-            src='/cafe2.png'
-            para1="LOCAL NEWS"
-            para2="International breastfeeding summit to launch in Dubai Expo City this April"
-            para3="Dubai's Expo City will host the first International Breastfeeding Summit this April, bringing together leading experts in maternal health and breastfeeding innovation" />
-          <PublishCard
-            src='/cafe3.png'
-            para1="STYLE & BEAUTY"
-            para2="Piaget unveils limited edition Ramadan watch with Shamsa Alabbar"
-            para3="Piaget has partnered with Emirati designer Shamsa Alabbar to create an exclusive Ramadan timepiece that pays tribute to the UAE's maritime heritage." />
-        </div>
-        <div className={styles.news_section_div}>
-          <Image className={styles.news_section_image}
-            src='/newscover.png'
-            alt='places'
-            width={900}
-            height={800}
-            quality={100} />
-        </div>
-      </div>
+      <HomeNews />
       <div className={styles.store}>
         <div className={styles.para_store_div}>
           <p className={styles.para1_store}>The hottest items in the store</p>
@@ -141,39 +106,7 @@ export default function Home() {
           dir={false}
         />
       </div>
-      <div className={styles.maroon}>
-        <div className={styles.maroon_para}>
-          <p className={styles.m_p_1}>The City’s Best – Now in Your Pocket</p>
-          <p className={styles.m_p_2}>Discover, explore, and experience the best places with the Hunter app.</p>
-        </div>
-        <div className={styles.marooN_image_div}>
-          <div className={styles.m_i_div}>
-            <div className={styles.guide_image_div2}>
-              <Image className={styles.guide_image2}
-                src='/mbl_footer.png'
-                alt='place guide 2'
-                width={1000}
-                height={1000} />
-            </div>
-          </div>
-          <div className={styles.button_home}>
-            <button className={styles.b1}>
-              <Image className={styles.b1image}
-                src='/googlelogoend.png'
-                alt='place guide 2'
-                width={100}
-                height={100} />
-            </button>
-            <button className={styles.b1}>
-              <Image className={styles.b1image}
-                src='/googlelogo1.png'
-                alt='place guide 2'
-                width={100}
-                height={100} />
-            </button>
-          </div>
-        </div>
-      </div>
+      <Maroon />
     </div>
   );
 }

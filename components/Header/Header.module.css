@@ -43,3 +43,12 @@
     justify-content: flex-end;
     gap: 16px;
 }
+
+.last_mbr {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

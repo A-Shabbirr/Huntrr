@@ -1,0 +1,119 @@
+.choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+    padding-left: 80px;
+    gap: 38px;
+}
+
+.left_para_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 16px;
+}
+
+.para {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 44px;
+    line-height: 132%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+
+}
+
+.para_span {
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44px;
+    line-height: 132%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+
+}
+
+.para_last {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 70%;
+
+}
+
+.left_button_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.left_button {
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    background-color: #A72C2C;
+    width: 40%;
+    border-radius: 100px;
+}
+
+.para_B {
+    color: white;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    line-height: 124%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.right1,
+.right2,
+.right3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+}
+
+.card_img1,
+.card_img2,
+.card_img3 {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    background-color: white;
+
+}

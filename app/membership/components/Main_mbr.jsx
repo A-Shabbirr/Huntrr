@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../components/styles/main.module.css';
 import Image from "next/image";
+import Membership_Button from './Membership_Button';
 
 const Main_mbr = () => {
     return (
@@ -52,9 +53,7 @@ const Main_mbr = () => {
             <div className={styles.mail}>
                 <form className={styles.form}>
                     <input className={styles.mbr_input} placeholder='Enter Your Email'></input>
-                    <button className={styles.mbr_b}>
-                        <p className={styles.mbr_b_p}>Get Your Membership</p>
-                    </button>
+                    <Membership_Button para='Get Your Membership' />
                 </form>
             </div>
         </div>

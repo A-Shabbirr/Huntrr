@@ -1,6 +1,5 @@
 
 import styles from "./page.module.css";
-import Button from "@/components/Button";
 import Hero from "@/components/Hero";
 import Image from "next/image";
 import Content from "./HomepageComponents/content";
@@ -13,6 +12,7 @@ import Guide from "./HomepageComponents/Guide";
 import DownloadButton from "./HomepageComponents/DownloadButton";
 import HomeNews from "./HomepageComponents/HomeNews";
 import Maroon from './HomepageComponents/Maroon';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -93,7 +93,9 @@ export default function Home() {
           <Storecard src='/store3.png' para1="Merchandise" para2="Limited edition products just for you." />
           <Storecard src='/store4.jpg' para1="Event Tickets" para2="Priority access to our special events." />
         </div>
-        <Button para="view more" />
+        <Link className={styles.link_button} href="/Store">
+          <p className={styles.store_button_p}>View More</p>
+        </Link>
       </div>
       <div className={styles.home_guide}>
         <Guide

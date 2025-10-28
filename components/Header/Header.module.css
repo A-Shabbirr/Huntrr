@@ -25,6 +25,10 @@
     gap: 40px;
 }
 
+.center_store {
+    display: none;
+}
+
 .center_heading {
     font-weight: 400;
     font-style: Regular;

@@ -13,19 +13,20 @@ const Header = () => {
     const pathname = usePathname();
     const isDirectory = pathname.startsWith('/directory')
     const ismembership = pathname.startsWith('/membership')
+    const isStore = pathname.startsWith('/Store')
     return (
         <div className={styles.header}>
             <div className={styles.navbar}>
                 <Link href="/"
                     className={styles.logo}
                 >
-                    <Image src={isDirectory ? "/dir_logo.png" : "/logo.png"}
+                    <Image src={isDirectory || isStore ? "/dir_logo.png" : "/logo.png"}
                         alt="Hunterr"
-                        width={isDirectory ? 50 : 132}
-                        height={isDirectory ? 60 : 32}
+                        width={isDirectory || isStore ? 50 : 132}
+                        height={isDirectory || isStore ? 60 : 32}
                     />
                 </Link>
-                <div className={styles.center}>
+                <div className={isStore ? styles.center_store : styles.center}>
                     <Link href="/directory">
                         <h6 className={styles.center_heading}>the Directory</h6>
                     </Link>
@@ -37,7 +38,7 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className={ismembership ? styles.last_mbr : styles.last}>
-                    {!ismembership ?
+                    {!ismembership && !isStore ? (
                         <>
                             <svg xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 640 640"
@@ -48,8 +49,14 @@ const Header = () => {
                             </svg>
                             <BurgerMenu />
                         </>
-                        :
-                        <Button mbr={true} para='Download App'/>}
+                    ) : ismembership ?
+                        (
+                            <Button mbr={true} para='Download App' />
+                        ) : isStore ?
+                            (
+                                <p>Cart (0)</p>
+                            ) : ''
+                    }
                 </div>
                 <div className={styles.veil}>
                     <div className={styles.closeButton} >

@@ -26,7 +26,7 @@ const page = () => {
             <div className={styles.directory_card}>
                 <div className={styles.cards}>
                     <Directorycard src="/dir_1.png" />
-                    <Directorycard src="/cafe3.png" center={true} />
+                    <Directorycard src="/Cafe3.png" center={true} />
                     <Directorycard src="/dir_3.png" />
                 </div>
             </div>

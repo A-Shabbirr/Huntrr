@@ -71,9 +71,10 @@ const Three_card_comp = ({ head, price, a, b, c, d, src }) => {
                     </div>
                     <div className={styles.Join_card_bot_card_div_cnt_bot_button}>
                         <Membership_Button
+                            threecard={true}
                             className={styles.Join_card_bot_card_button}
                             para_className={styles.Join_card_bot_card_button_p}
-                            threecard={true} para='Join Now' />
+                            para='Join Now' />
                     </div>
                 </div>
 

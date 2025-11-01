@@ -30,9 +30,9 @@ const Publish_section = ({ heading = '', cc = false }) => {
                 // <div className={styles.published_bottom2}
                 // style={{ color: 'white' }}
                 >
-                    <PublishCard src='/cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
-                    <PublishCard src='/cafe2.png' para1="RESTAURANT IN ABU DHABI" />
-                    <PublishCard src='/cafe3.png' para1="CAFE IN SHARJAH" />
+                    <PublishCard src='/Cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
+                    <PublishCard src='/Cafe2.png' para1="RESTAURANT IN ABU DHABI" />
+                    <PublishCard src='/Cafe3.png' para1="CAFE IN SHARJAH" />
                 </div>
             </div>
         </div>

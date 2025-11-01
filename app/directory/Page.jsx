@@ -2,7 +2,6 @@ import React from 'react';
 import styles from '../directory/dir.styles.module.css';
 import Hero from '@/components/Hero';
 import Directorycard from './components/Directorycard';
-import Button from '@/components/Button';
 import Image from 'next/image';
 import Publish_section from '../HomepageComponents/Publish_section';
 import NewsFilter from '../news/NewsComponents/NewsFilter';
@@ -10,7 +9,7 @@ import Guide from "../HomepageComponents/Guide";
 import AboutUs_dir from './components/AboutUs_dir';
 import Explore_dir from './components/Explore_dir';
 import E_cat_dir from './components/E_cat_dir';
-const Page = () => {
+const page = () => {
     return (
         <div className={styles.directory}>
             <div className={styles.top}>
@@ -95,4 +94,4 @@ const Page = () => {
     );
 };
 
-export default Page;
+export default page;

@@ -88,7 +88,7 @@ export default function Home() {
           <p className={styles.para2_store}>Exclusive access to guides, merch, and events.</p>
         </div>
         <div className={styles.store_div}>
-          <Storecard src='/store1.png' para1="Gift Cards" para2="Give the gift of membership." />
+          <Storecard src='/Store1.png' para1="Gift Cards" para2="Give the gift of membership." />
           <Storecard src='/store2.png' para1="PDF Guides" para2="Exclusive digital guides for members." />
           <Storecard src='/store3.png' para1="Merchandise" para2="Limited edition products just for you." />
           <Storecard src='/store4.jpg' para1="Event Tickets" para2="Priority access to our special events." />

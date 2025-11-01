@@ -12,18 +12,18 @@ const HomeNews = () => {
             </div>
             <div className={styles.news_top}>
                 <PublishCard
-                    src='/cafe1.png'
+                    src='/Cafe1.png'
                     para1="FOOD & DRINK"
                     para2="Join the HUNTR for an exclusive preview of the One&Only Royal Mirage iftar experience"
                     para3="For those seeking a different ambiance, the Arabian Courtyard presents a bespoke Ramadan majlis beneath the stars..."
                 />
                 <PublishCard
-                    src='/cafe2.png'
+                    src='/Cafe2.png'
                     para1="LOCAL NEWS"
                     para2="International breastfeeding summit to launch in Dubai Expo City this April"
                     para3="Dubai's Expo City will host the first International Breastfeeding Summit this April, bringing together leading experts in maternal health and breastfeeding innovation" />
                 <PublishCard
-                    src='/cafe3.png'
+                    src='/Cafe3.png'
                     para1="STYLE & BEAUTY"
                     para2="Piaget unveils limited edition Ramadan watch with Shamsa Alabbar"
                     para3="Piaget has partnered with Emirati designer Shamsa Alabbar to create an exclusive Ramadan timepiece that pays tribute to the UAE's maritime heritage." />

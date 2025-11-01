@@ -19,10 +19,10 @@ const page = () => {
             <Third />
             <Fourth />
             <Testimonials_mbr />
-            <ThreeCard threecard={true} />
+            <ThreeCard />
             <Choice />
             <QA />
-            <Mem_footer MF={true} />
+            <Mem_footer />
         </div>
     );
 }

@@ -5,6 +5,10 @@
     background-color: #A72C2C;
     width: 40%;
     border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .mbr_b_p {
@@ -16,5 +20,24 @@
     letter-spacing: 0%;
     vertical-align: middle;
     text-transform: capitalize;
+
+}
+
+.MF_Button {
+    width: 70%;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+}
+
+.MF_para {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    line-height: 124%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #AB373D;
 
 }

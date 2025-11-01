@@ -61,8 +61,6 @@ const Mem_footer = () => {
                 <div className={styles.MF_left_bot}>
                     <Membership_Button
                         MF={true}
-                        className={styles.MF_Button}
-                        para_className={styles.MF_para}
                         para='Join Today and Unlock the Best of Your City!' />
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles/place.module.css';
+import styles from '../HomepageComponents/styles/place.module.css';
 import Image from 'next/image';
 
 const Place = ({ para = '', src }) => {

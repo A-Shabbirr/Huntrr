@@ -3,9 +3,9 @@ import styles from "../news/news.module.css";
 import Image from 'next/image';
 import Hero from '@/components/Hero';
 import PublishCard from '@/app/HomepageComponents/PublishCard';
-import NewsFilter from './NewsComponents/NewsFilter';
-import PageNumber from './NewsComponents/PageNumber';
-import NewsFooter from './NewsComponents/NewsFooter';
+import NewsFilter from '@/app/news/NewsComponents/NewsFilter';
+import PageNumber from '@/app/news/NewsComponents/PageNumber';
+import NewsFooter from '@/app/news/NewsComponents/NewsFooter';
 
 const page = () => {
     return (

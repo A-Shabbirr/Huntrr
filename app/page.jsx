@@ -58,7 +58,7 @@ export default function Home() {
           <p className={styles.place_top_link}>view more</p>
         </div>
         <div className={styles.place_bottom}>
-          <Place src='/Place_1.png' para="kids eat free at SALT" />
+          <Place src='/Place1.png' para="kids eat free at SALT" />
           <Place src='/Place_2.png' para="9th Matcha free at knot" />
           <Place src='/Place_3.png' para="20% at HOOF" />
           <Place src='/Place_4.png' para="9th Coffee free at benchmark" />

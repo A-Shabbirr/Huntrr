@@ -51,7 +51,7 @@ const Footer = () => {
 
                     </div>
                     <div className={styles.buttons}>
-                        <FooterButton src='/Google_Logo.png' alt='Playstore' />
+                        <FooterButton src='/Google_logo.png' alt='Playstore' />
                         <FooterButton src='/applepng.png' alt='apple' />
                     </div>
                 </div>

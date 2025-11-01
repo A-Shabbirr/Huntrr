@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Hero from '@/components/Hero';
 import PublishCard from '@/app/HomepageComponents/PublishCard';
 import NewsFilter from './NewsComponents/NewsFilter';
-import PageNumber from './NewsComponents/pagenumber';
+import PageNumber from './NewsComponents/PageNumber';
 import NewsFooter from './NewsComponents/NewsFooter';
 
 const page = () => {

@@ -76,9 +76,9 @@ const page = () => {
                         <p className={styles.published_top_head_p}>Trending news</p>
                     </div>
                     <div className={styles.news_trending_div}>
-                        <PublishCard src='/cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
-                        <PublishCard src='/cafe2.png' para1="RESTAURANT IN ABU DHABI" center />
-                        <PublishCard src='/cafe3.png' para1="CAFE IN SHARJAH" />
+                        <PublishCard src='/Cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
+                        <PublishCard src='/Cafe2.png' para1="RESTAURANT IN ABU DHABI" center />
+                        <PublishCard src='/Cafe3.png' para1="CAFE IN SHARJAH" />
                     </div>
 
                 </div>

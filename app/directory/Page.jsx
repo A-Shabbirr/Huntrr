@@ -9,6 +9,7 @@ import Guide from "../HomepageComponents/Guide";
 import AboutUs_dir from './components/AboutUs_dir';
 import Explore_dir from './components/Explore_dir';
 import E_cat_dir from './components/E_cat_dir';
+
 const page = () => {
     return (
         <div className={styles.directory}>
@@ -92,6 +93,5 @@ const page = () => {
             </div>
         </div>
     );
-};
-
+}
 export default page;

@@ -58,14 +58,14 @@ const page = () => {
                         </div>
                     </div>
                     <div className={styles.news2}>
-                        <PublishCard src='/cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
-                        <PublishCard src='/cafe2.png' para1="RESTAURANT IN ABU DHABI" />
-                        <PublishCard src='/cafe3.png' para1="CAFE IN SHARJAH" />
+                        <PublishCard src='/Cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
+                        <PublishCard src='/Cafe2.png' para1="RESTAURANT IN ABU DHABI" />
+                        <PublishCard src='/Cafe3.png' para1="CAFE IN SHARJAH" />
                     </div>
                     <div className={styles.news2}>
-                        <PublishCard src='/cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
-                        <PublishCard src='/cafe2.png' para1="RESTAURANT IN ABU DHABI" />
-                        <PublishCard src='/cafe3.png' para1="CAFE IN SHARJAH" />
+                        <PublishCard src='/Cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
+                        <PublishCard src='/Cafe2.png' para1="RESTAURANT IN ABU DHABI" />
+                        <PublishCard src='/Cafe3.png' para1="CAFE IN SHARJAH" />
                     </div>
                 </div>
                 <div className={styles.news_page_button}>

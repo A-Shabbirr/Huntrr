@@ -21,15 +21,15 @@ const Maroon = () => {
                 <div className={styles.button_home}>
                     <button className={styles.b1}>
                         <Image className={styles.b1image}
-                            src='/googlelogoend.png'
-                            alt='place guide 2'
+                            src='/Googlelogoend.png'
+                            alt='Google Play'
                             width={100}
                             height={100} />
                     </button>
                     <button className={styles.b1}>
                         <Image className={styles.b1image}
                             src='/googlelogo1.png'
-                            alt='place guide 2'
+                            alt='App Store'
                             width={100}
                             height={100} />
                     </button>

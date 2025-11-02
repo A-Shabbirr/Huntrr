@@ -4,6 +4,11 @@
     width: 35%;
     background-color: #FFFFFF;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .button_logo {

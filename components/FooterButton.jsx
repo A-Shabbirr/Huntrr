@@ -8,8 +8,8 @@ const FooterButton = ({ src, alt }) => {
             <Image className={styles.button_logo}
                 src={src}
                 alt={alt}
-                width={120}
-                height={40}
+                width={100}
+                height={100}
                 quality={100} />
         </button>
     );

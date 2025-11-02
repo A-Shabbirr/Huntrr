@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from '../Store/store.module.css';
 import Image from 'next/image';
+import BestSellers from './components/BestSellers';
+import BestSellers_p from './components/BestSellers_p';
 
 const page = () => {
     return (
@@ -54,6 +56,15 @@ const page = () => {
                 <div className={styles.bot}>
                     <p className={styles.p_img}>Exclusive access to</p>
                     <p className={styles.p_img}>guides, merch, and events.</p>
+                </div>
+            </div>
+            <div className={styles.BS}>
+                <p className={styles.BS_p}>Best Sellers</p>
+                <div className={styles.BS_div}>
+                    <BestSellers src='/BS1.jpg' alt='Shop Now' Title='Guide Name' />
+                    <BestSellers_p paragraph='Born to Sail ??? Get the Shirt now' />
+                    <BestSellers_p ImageSRC='/S4.png' altText='Sail' />
+                    <BestSellers src='/BS2.png' alt='Born to Sail' Title='Dubai Shirt' size='Size:' detail='S,M,L,XL' />
                 </div>
             </div>
         </div >

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/date.module.css';
 import Image from 'next/image';
 
-const Date_comp = ({ date, events, src, alt }) => {
+const Date_Comp = ({ date, events, src, alt }) => {
     return (
         <div className={styles.date}>
             <div className={styles.date_top}>
@@ -30,4 +30,4 @@ const Date_comp = ({ date, events, src, alt }) => {
         </div>
     );
 }
-export default Date_comp;
+export default Date_Comp;

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/Calendar.module.css';
 import Image from 'next/image';
 import Button from '@/components/Button';
-import Date_comp from './date_comp';
+import Date_Comp from './Date_Comp';
 
 const Calendar = () => {
     return (
@@ -38,36 +38,36 @@ const Calendar = () => {
                     <p className={styles.days}>Sat</p>
                 </div>
                 <div className={styles.calendar_cen_dates}>
-                    <Date_comp date='01' events='No Event' />
-                    <Date_comp date='02' events='Event name here..' />
-                    <Date_comp date='03' events='No Event' />
-                    <Date_comp date='04' events='Summer music Festival' src='/calendar4.png' />
-                    <Date_comp date='05' events='No Event' />
-                    <Date_comp date='06' events='No Event' src='/calendar6.png' />
-                    <Date_comp date='07' events='No Event' />
-                    <Date_comp date='08' events='No Event' />
-                    <Date_comp date='09' events='No Event' />
-                    <Date_comp date='10' events='Event name here..' src='/S2.png' />
-                    <Date_comp date='11' events='No Event' />
-                    <Date_comp date='12' events='No Event' />
-                    <Date_comp date='13' events='No Event' />
-                    <Date_comp date='14' events='No Event' />
-                    <Date_comp date='15' events='Event name here..' />
-                    <Date_comp date='16' events='No Event' />
-                    <Date_comp date='17' events='No Event' />
-                    <Date_comp date='18' events='Event name here..' src='/calendar18.png' />
-                    <Date_comp date='19' events='No Event' />
-                    <Date_comp date='20' events='No Event' />
-                    <Date_comp date='21' events='No Event' />
-                    <Date_comp date='22' events='No Event' />
-                    <Date_comp date='23' events='No Event' />
-                    <Date_comp date='24' events='Event name here..' />
-                    <Date_comp date='25' events='No Event' />
-                    <Date_comp date='26' events='No Event' />
-                    <Date_comp date='27' events='No Event' src='/calendar27.png' />
-                    <Date_comp date='28' events='Event name here..' />
-                    <Date_comp date='29' events='No Event' />
-                    <Date_comp date='30' events='Event name here..' />
+                    <Date_Comp date='01' events='No Event' />
+                    <Date_Comp date='02' events='Event name here..' />
+                    <Date_Comp date='03' events='No Event' />
+                    <Date_Comp date='04' events='Summer music Festival' src='/calendar4.png' />
+                    <Date_Comp date='05' events='No Event' />
+                    <Date_Comp date='06' events='No Event' src='/calendar6.png' />
+                    <Date_Comp date='07' events='No Event' />
+                    <Date_Comp date='08' events='No Event' />
+                    <Date_Comp date='09' events='No Event' />
+                    <Date_Comp date='10' events='Event name here..' src='/S2.png' />
+                    <Date_Comp date='11' events='No Event' />
+                    <Date_Comp date='12' events='No Event' />
+                    <Date_Comp date='13' events='No Event' />
+                    <Date_Comp date='14' events='No Event' />
+                    <Date_Comp date='15' events='Event name here..' />
+                    <Date_Comp date='16' events='No Event' />
+                    <Date_Comp date='17' events='No Event' />
+                    <Date_Comp date='18' events='Event name here..' src='/calendar18.png' />
+                    <Date_Comp date='19' events='No Event' />
+                    <Date_Comp date='20' events='No Event' />
+                    <Date_Comp date='21' events='No Event' />
+                    <Date_Comp date='22' events='No Event' />
+                    <Date_Comp date='23' events='No Event' />
+                    <Date_Comp date='24' events='Event name here..' />
+                    <Date_Comp date='25' events='No Event' />
+                    <Date_Comp date='26' events='No Event' />
+                    <Date_Comp date='27' events='No Event' src='/calendar27.png' />
+                    <Date_Comp date='28' events='Event name here..' />
+                    <Date_Comp date='29' events='No Event' />
+                    <Date_Comp date='30' events='Event name here..' />
                 </div>
             </div>
             <div className={styles.calendar_bot}>

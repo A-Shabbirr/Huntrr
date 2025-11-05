@@ -1,9 +1,10 @@
+'use client'
 import React from 'react';
 import styles from '../styles/BS_comp.module.css';
 import Image from 'next/image';
 
 
-const BestSellers = ({ src, alt, size, Title, detail, EC = false, bgImage, end = false }) => {
+const BestSellers = ({ src, alt, size, Title, detail, EC = false, bgImage, end = false, handleLookInside }) => {
     return (
         <div className={`${styles.BS_comp} ${EC ? styles.EC_comp : ''} ${end ? styles.END_comp : ''}`}
             style={bgImage ? {
@@ -78,7 +79,7 @@ const BestSellers = ({ src, alt, size, Title, detail, EC = false, bgImage, end =
                         <button className={styles.Add_to_Cart_B}>
                             <p className={styles.Add_to_Cart_B_p}> Add to Cart</p>
                         </button>
-                        <button className={styles.Look_inside}>
+                        <button className={styles.Look_inside} onClick={handleLookInside}>
                             <p className={styles.Look_inside_p}> Look Inside</p>
                         </button>
                     </div>

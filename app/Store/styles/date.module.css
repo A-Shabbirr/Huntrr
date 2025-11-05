@@ -10,6 +10,19 @@
     padding: 20px;
 }
 
+.date_modified {
+    cursor: pointer;
+    border: 0.5px solid #111111;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdd1d1;
+    height: 236px;
+    padding: 20px;
+}
+
 .date:nth-child(7n) {
     border-right: 1px solid #111111;
 }

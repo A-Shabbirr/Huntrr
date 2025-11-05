@@ -2,9 +2,9 @@ import React from 'react';
 import styles from '../styles/date.module.css';
 import Image from 'next/image';
 
-const Date_Comp = ({ date, events, src, alt }) => {
+const Date_Comp = ({ date, events, src, alt, handleOpen }) => {
     return (
-        <div className={styles.date}>
+        <div className={handleOpen ? styles.date_modified : styles.date} onClick={handleOpen}>
             <div className={styles.date_top}>
                 <p className={styles.date_top_p}>
                     {date}

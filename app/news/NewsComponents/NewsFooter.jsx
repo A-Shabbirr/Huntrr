@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "..//Styles/newsFooter.module.css";
+import styles from "../Styles/newsFooter.module.css";
 import NewsFooterButton from "../NewsComponents/NewsFooterButton";
 import Image from 'next/image';
 

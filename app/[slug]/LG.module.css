@@ -1,0 +1,138 @@
+.LG {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.LG_Top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 32px;
+}
+
+.LG_hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.LG_hero_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.LG_mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.LG_mid_head {
+    width: 90%;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 52px;
+    line-height: 124%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #111111;
+}
+
+.LG_mid_head span {
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    line-height: 124%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #111111;
+}
+
+.LG_mid_p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.the {
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.HUNTR {
+    font-weight: 600;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LG_bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.LG_bot_B {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 53px;
+    border-radius: 11px;
+    background-color: #AB373D;
+    border: none;
+}
+
+.LG_bot_B_p {
+    font-weight: 200;
+    font-style: Regular;
+    font-size: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    width: 70%;
+}
+
+.LG_bot_B_p span {
+    font-weight: 600;
+    font-style: Regular;
+    font-size: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+}

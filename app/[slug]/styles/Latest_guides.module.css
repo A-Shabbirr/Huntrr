@@ -1,22 +1,16 @@
-.guide {
+.Latest_guides {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     gap: 60px;
+    margin: 20px 0px;
+    padding: 40px;
 }
 
-.guide_top {
+.Latest_guides_top {
     gap: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.guide_para {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,7 +18,15 @@
     width: 100%;
 }
 
-.guide_head_p {
+.Latest_guides_para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Latest_guides_head_p {
     font-weight: 600;
     font-style: Semi Bold;
     font-size: 45px;
@@ -36,18 +38,30 @@
 
 }
 
-.guide_head_vm {
-    font-weight: 600;
-    font-style: Semi Bold;
+.LG_search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 36px;
+    border-bottom: 1px solid #111111;
+}
+
+.LG_search_p {
+    border: none;
+    width: 100%;
+    height: inherit;
+}
+
+.LG_search_p ::placeholder {
+    color: #111111;
+    font-weight: 400;
+    font-style: Regular;
     font-size: 16px;
-    line-height: 124%;
+    line-height: 150%;
     letter-spacing: 0%;
-    vertical-align: middle;
-    text-transform: capitalize;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 0%;
-    text-decoration-skip-ink: auto;
+    vertical-align: bottom;
 
 }
 
@@ -117,7 +131,7 @@
     height: 100%;
 }
 
-.guide_image {
+.Latest_guides_image {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,7 +156,7 @@
     width: 100%;
 }
 
-.guide_image2 {
+.Latest_guides_image2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,7 +172,7 @@
     object-fit: cover;
 }
 
-.guide_image_para_div {
+.Latest_guides_image_para_div {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -172,11 +186,10 @@
     color: #111111;
     font-weight: 600;
     font-style: Semi Bold;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 130%;
     letter-spacing: 0%;
     text-transform: capitalize;
-
 }
 
 .g_i_para {
@@ -186,10 +199,10 @@
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0%;
-
+    opacity: 80%;
 }
 
-.guide_image2b {
+.Latest_guides_image2b {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -212,8 +225,8 @@
     position: absolute;
     width: 50%;
     gap: 9px;
-    top: 50px;
-    left: 40px;
+    top: 20px;
+    left: 20px;
     height: 40px;
 }
 

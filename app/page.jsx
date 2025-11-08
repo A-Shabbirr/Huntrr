@@ -1,4 +1,3 @@
-
 import styles from "./page.module.css";
 import Hero from "@/components/Hero";
 import Image from "next/image";

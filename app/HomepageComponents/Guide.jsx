@@ -1,13 +1,18 @@
 import React from 'react';
 import styles from '../HomepageComponents/styles/Guide.module.css';
 import Image from 'next/image';
-const Guide = ({ heading, leftpara1, leftpara2, para1a, para1b, para2a, para2b, explore, explore2, dir = false }) => {
+import Link from 'next/link';
+const Guide = ({ heading, leftpara1, leftpara2, para1a, para1b, para2a, para2b, explore, explore2, dir = false, cafe = false }) => {
     return (
         <div className={styles.guide}>
             <div className={styles.guide_top}>
                 <div className={styles.guide_para}>
                     <p className={styles.guide_head_p}>{heading}</p>
-                    <p className={styles.guide_head_vm}>view more</p>
+                    <p className={styles.guide_head_vm}>
+                        <Link href={`/${encodeURIComponent(cafe ? 'Latest-Guides' : 'Guides')}`}>
+                            view more
+                        </Link>
+                    </p>
                 </div>
                 <div className={`${styles.filter_g} ${dir ? styles.filter_g_dir : ''}`}>
                     <p className={styles.f_g_1}>Cafes</p>
@@ -22,11 +27,13 @@ const Guide = ({ heading, leftpara1, leftpara2, para1a, para1b, para2a, para2b, 
                         <p className={styles.explore}>{explore}</p>
                         <p className={`${styles.explore2} ${dir ? styles.explore_dir : ''}`}>{explore2}</p>
                     </div>
-                    <Image className={styles.guide_image}
-                        src='/guide1.png'
-                        alt='place guide 1'
-                        width={1000}
-                        height={1000} />
+                    <div className={styles.guide_image}>
+                        <Image className={styles.image_left}
+                            src='/guide1.png'
+                            alt='place guide 1'
+                            width={1000}
+                            height={1000} />
+                    </div>
                     <div className={styles.guide_image_para_div}>
                         <p className={styles.g_i_para1}>{leftpara1 ? leftpara1 : 'La Petite Café'}</p>
                         <p className={styles.g_i_para}>{leftpara2 ? leftpara2 : 'Cozy brunch spot with the best croissants in town.'}</p>
@@ -38,11 +45,13 @@ const Guide = ({ heading, leftpara1, leftpara2, para1a, para1b, para2a, para2b, 
                             <p className={styles.explore}>{explore}</p>
                             <p className={`${styles.explore2} ${dir ? styles.explore_dir : ''}`}>{explore2}</p>
                         </div>
-                        <Image className={styles.guide_image2}
-                            src='/guide2a.png'
-                            alt='place guide 2'
-                            width={1000}
-                            height={1000} />
+                        <div className={styles.guide_image2}>
+                            <Image className={styles.image_right_top}
+                                src='/guide2a.png'
+                                alt='place guide 2'
+                                width={1000}
+                                height={1000} />
+                        </div>
                         <div className={styles.guide_image_para_div}>
                             <p className={styles.g_i_para1}>{para1a}</p>
                             <p className={styles.g_i_para}>{para1b}</p>
@@ -53,11 +62,13 @@ const Guide = ({ heading, leftpara1, leftpara2, para1a, para1b, para2a, para2b, 
                             <p className={styles.explore}>{explore}</p>
                             <p className={`${styles.explore2} ${dir ? styles.explore_dir : ''}`}>{explore2}</p>
                         </div>
-                        <Image className={styles.guide_image2}
-                            src='/guide2b.png'
-                            alt='place guide 3'
-                            width={1000}
-                            height={1000} />
+                        <div className={styles.guide_image2b}>
+                            <Image className={styles.image_right_bot}
+                                src='/guide2b.png'
+                                alt='place guide 3'
+                                width={1000}
+                                height={1000} />
+                        </div>
                         <div className={styles.guide_image_para_div}>
                             <p className={styles.g_i_para1}>{para2a}</p>
                             <p className={styles.g_i_para}>{para2b}</p>

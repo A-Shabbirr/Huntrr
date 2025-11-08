@@ -105,6 +105,7 @@ export default function Home() {
           para2b='Cozy brunch spot with the best croissants in town.'
           explore='20 Places'
           dir={false}
+          cafe={false}
         />
       </div>
       <Maroon />

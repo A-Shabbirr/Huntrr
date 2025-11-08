@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Latest_guides from './components/Latest_guides';
 
 const page = ({ params }) => {
+    
     return (
         <div className={styles.LG}>
             <div className={styles.LG_Top}>

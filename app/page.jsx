@@ -20,11 +20,11 @@ export default function Home() {
         <p className={styles.top_p}>Download our App . Download our App . Download our App</p>
         <div className={styles.top_Image_div}>
           <Image className={styles.top_Image}
-           src='/Hero.png' 
-           alt='Dowload our App' 
-           width={1000} 
-           height={1000} 
-           quality={100} />
+            src='/Hero.png'
+            alt='Dowload our App'
+            width={1000}
+            height={1000}
+            quality={100} />
         </div>
       </div>
       <DownloadButton />
@@ -32,15 +32,18 @@ export default function Home() {
         <Content
           para='GUIDES'
           head='The ultimate guide to date night in Dubai: 118 gems to explore'
-          para2='Something to suit all moods and tastes...' />
+          para2='Something to suit all moods and tastes...'
+          link='/Guides' />
         <Content
           para='THE DIRECTORY'
           head="The Cullinan Dubai: Sophisticated steakhouse dining on Jumeirah's seafront"
-          para2='Premium cuts and panoramic Burj Al Arab views create a refined restaurant' />
+          para2='Premium cuts and panoramic Burj Al Arab views create a refined restaurant'
+          link='directory' />
         <Content
           para='NEWS'
           head='Here’s where you can pick up your free copy of PAPER by HUNTR edition two'
-          para2='Catch it while you can' />
+          para2='Catch it while you can'
+          link='news' />
       </div>
       <div className={styles.letter_div}>
         <Image className={styles.letter_image}

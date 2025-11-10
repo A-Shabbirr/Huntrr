@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Latest_guides.module.css';
-import Filter from './Filter';
 import Image from 'next/image';
+import Filter from '../components/Filter';
 
 const Latest_guides = () => {
     return (

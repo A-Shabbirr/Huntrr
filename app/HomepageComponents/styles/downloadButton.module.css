@@ -51,8 +51,8 @@
     .downloadButton {
         background-color: none;
         z-index: 2;
-        padding: 30px 43px;
-        width: 100%;
+        padding: 30px 0px;
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -62,13 +62,11 @@
     }
 
     .main_heading {
-        width: 100%;
         font-weight: 400;
         font-style: Regular;
         font-size: 32px;
-        line-height: 100%;
+        line-height: 130%;
         letter-spacing: 0%;
-        vertical-align: middle;
     }
 
     .span {
@@ -82,8 +80,8 @@
     }
 
     .sub_head {
-        width: 100%;
         color: #111111;
+        width: 100%;
         font-weight: 400;
         font-style: Regular;
         font-size: 14px;

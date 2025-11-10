@@ -465,7 +465,7 @@
   .top_Image_div {
     position: absolute;
     bottom: -60px;
-    right: 20px;
+    right: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;

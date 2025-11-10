@@ -51,8 +51,8 @@
     .downloadButton {
         background-color: none;
         z-index: 2;
-        padding: 30px 0px;
-        width: 90%;
+        padding: 30px 20px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -69,7 +69,6 @@
         line-height: 130%;
         letter-spacing: 0%;
         color: #111111;
-        background-color: red;
     }
 
     .span {
@@ -108,7 +107,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        bottom: 55px;
+        bottom: 35px;
         right: 10px;
         width: 85px;
         height: 85px;

@@ -1,11 +1,12 @@
 .downloadButton {
-    padding: 0px 43px;
+    background-color: white;
+    z-index: 2;
+    padding: 50px 43px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 40px;
 }
 
 .main_heading {
@@ -37,3 +38,83 @@
     margin-top: 20px;
 }
 
+.app_seal {
+    display: none;
+}
+
+/* 
+.lock_image {
+    display: none;
+} */
+
+@media (max-width: 599px) {
+    .downloadButton {
+        background-color: white;
+        z-index: 2;
+        padding: 50px 43px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        position: relative;
+    }
+
+    .main_heading {
+        font-weight: 700;
+        font-style: Regular;
+        font-size: 43px;
+        line-height: 130%;
+        letter-spacing: 0%;
+        width: 100%;
+    }
+
+    .span {
+        width: 100%;
+        font-weight: 700;
+        font-style: Regular;
+        font-size: 43px;
+        line-height: 130%;
+        letter-spacing: 0%;
+        font-style: italic;
+    }
+
+    .sub_head {
+        width: 100%;
+        color: #111111;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+
+    .app_button {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .app_seal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 55px;
+        right: 40px;
+        width: 85px;
+        height: 85px;
+        transform: rotate(15.26deg);
+    }
+
+    .lock_image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

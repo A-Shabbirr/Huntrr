@@ -2,13 +2,18 @@ import React from 'react';
 import styles from '../HomepageComponents/styles/homenews.module.css';
 import PublishCard from '../HomepageComponents/PublishCard';
 import Image from "next/image";
+import Link from 'next/link';
 
 const HomeNews = () => {
     return (
         <div className={styles.news_section}>
             <div className={styles.news_head}>
                 <p className={styles.news_top_head_p}>Latest News</p>
-                <p className={styles.news_top_head_vm}>view more</p>
+                <p className={styles.news_top_head_vm}>
+                    <Link href="/news">
+                        view more
+                    </Link>
+                </p>
             </div>
             <div className={styles.news_top}>
                 <PublishCard

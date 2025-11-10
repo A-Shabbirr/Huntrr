@@ -17,7 +17,15 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <div className={styles.top}>
-        <Hero src='/Homepage_cover.jpg' alt='Dowload our App' />
+        <p className={styles.top_p}>Download our App . Download our App . Download our App</p>
+        <div className={styles.top_Image_div}>
+          <Image className={styles.top_Image}
+           src='/Hero.png' 
+           alt='Dowload our App' 
+           width={1000} 
+           height={1000} 
+           quality={100} />
+        </div>
       </div>
       <DownloadButton />
       <div className={styles.overview}>

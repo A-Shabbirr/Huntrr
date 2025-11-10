@@ -97,3 +97,10 @@
     letter-spacing: 0%;
 
 }
+
+@media (max-width: 599px) {
+    .svg {
+        width: 40px;
+        height: 24px;
+    }
+}

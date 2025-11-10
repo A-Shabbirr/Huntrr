@@ -2,13 +2,18 @@ import React from 'react';
 import PublishCard from "../HomepageComponents/PublishCard";
 import styles from '../HomepageComponents/styles/Publish_section.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Publish_section = ({ heading = '', cc = false }) => {
     return (
         <div className={styles.published_section}>
             <div className={`${styles.published_top} ${cc ? styles.published_top_cc : ''}`}>
                 <p className={`${styles.published_top_head_p} ${cc ? styles.published_top_head_p_cc : ''}`}>{heading}</p>
-                <p className={`${styles.published_top_head_vm} ${cc ? styles.published_top_head_vm_cc : ''}`}>view more</p>
+                <p className={`${styles.published_top_head_vm} ${cc ? styles.published_top_head_vm_cc : ''}`}>
+                    <Link href="/directory">
+                        view more
+                    </Link>
+                </p>
             </div>
             <div className={styles.published_bottom}>
                 <div className={styles.published_bottom1}>

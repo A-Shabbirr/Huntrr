@@ -62,6 +62,7 @@ const Header = () => {
                     {!ismembership && !isStore && !isLGslug ? (
                         <>
                             <svg xmlns="http://www.w3.org/2000/svg"
+                            className={styles.search_svg}
                                 viewBox="0 0 640 640"
                                 width='20'
                                 height='20'

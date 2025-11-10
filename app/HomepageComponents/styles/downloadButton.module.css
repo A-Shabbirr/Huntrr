@@ -51,7 +51,7 @@
     .downloadButton {
         background-color: none;
         z-index: 2;
-        padding: 0px 43px;
+        padding: 30px 43px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -107,7 +107,7 @@
         align-items: center;
         position: absolute;
         bottom: 55px;
-        right: 40px;
+        right: 20px;
         width: 85px;
         height: 85px;
         transform: rotate(15.26deg);

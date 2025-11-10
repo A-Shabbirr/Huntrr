@@ -9,7 +9,7 @@ const Guide = ({ heading, leftpara1, leftpara2, para1a, para1b, para2a, para2b, 
                 <div className={styles.guide_para}>
                     <p className={styles.guide_head_p}>{heading}</p>
                     <p className={styles.guide_head_vm}>
-                        <Link href="/Guides">
+                        <Link href={cafe ? "/Latest-Guides" : "/Guides"}>
                             view more
                         </Link>
                     </p>

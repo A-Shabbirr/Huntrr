@@ -62,11 +62,14 @@
     }
 
     .main_heading {
+        width: 100%;
         font-weight: 400;
         font-style: Regular;
         font-size: 32px;
         line-height: 130%;
         letter-spacing: 0%;
+        color: #111111;
+        background-color: red;
     }
 
     .span {
@@ -77,6 +80,7 @@
         line-height: 130%;
         letter-spacing: 0%;
         font-style: italic;
+        color: #111111;
     }
 
     .sub_head {
@@ -105,7 +109,7 @@
         align-items: center;
         position: absolute;
         bottom: 55px;
-        right: 20px;
+        right: 10px;
         width: 85px;
         height: 85px;
         transform: rotate(15.26deg);

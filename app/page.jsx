@@ -46,12 +46,14 @@ export default function Home() {
           link='news' />
       </div>
       <div className={styles.letter_div}>
-        <Image className={styles.letter_image}
-          src='/letter.jpg'
-          alt='places'
-          width={500}
-          height={500}
-          quality={100} />
+        <div className={styles.LI_image_div}>
+          <Image className={styles.letter_image}
+            src='/letter.jpg'
+            alt='places'
+            width={1000}
+            height={1000}
+            quality={100} />
+        </div>
         <div className={styles.email_div}>
           <p className={styles.email_p}>Get the best of your city straight to your inbox</p>
           <Input
@@ -76,7 +78,10 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.Editor_pick}>
-        <p className={styles.Editor_para}>the <span className={styles.Editor_para_span}>HUNTR</span> editor’s picks</p>
+        <div className={styles.Editor_para_div}>
+          <p className={styles.Editor_para}>the <span className={styles.Editor_para_span}>HUNTR</span> editor’s picks</p>
+          <p className={styles.Editor_para_link}>view more</p>
+        </div>
         <div className={styles.editor_card}>
           <Editor_card name="Alfatiha, Editor" src='/1.png' para_classname_3='Salt' />
           <Editor_card name="Rina & Vince, Editor" src='/2.jpg' para_classname_3='Polline' />

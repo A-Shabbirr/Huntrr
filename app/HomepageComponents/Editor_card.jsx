@@ -24,13 +24,15 @@ const Editor_card = ({ src, name = '', para_classname_3 = '', }) => {
                     </textPath>
                 </text>
             </svg>
-            <Image
-                className={styles.image_card}
-                src={src}
-                alt='name'
-                width={210}
-                height={210}
-                quality={100} />
+            <div className={styles.image_card}>
+                <Image
+                    className={styles.image}
+                    src={src}
+                    alt='name'
+                    width={1000}
+                    height={1000}
+                    quality={100} />
+            </div>
             <div className={styles.para_div}>
                 <p className={styles.para_2}>Best pizza ever!</p>
                 <p className={styles.para_2}>and top notch service</p>

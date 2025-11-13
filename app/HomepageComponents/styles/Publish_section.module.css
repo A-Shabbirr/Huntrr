@@ -143,3 +143,117 @@
 .published_bottom2_cc p {
     color: #FFFFFF;
 }
+
+@media (max-width:599px) {
+    .published_section {
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .published_top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .published_top_head_p {
+        width: 80%;
+        text-align: start;
+        color: #111927;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 24px;
+        line-height: 132%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        text-transform: capitalize;
+    }
+
+    .published_top_head_p_cc {
+        color: #FFFFFF;
+
+    }
+
+    .published_top_head_vm {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 12px;
+        line-height: 124%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        text-transform: capitalize;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-thickness: 0%;
+        text-decoration-skip-ink: auto;
+        color: #111111;
+
+    }
+
+    .published_top_head_vm_cc {
+        color: #FFFFFF;
+    }
+
+    .published_bottom {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .published_bottom1 {
+        display: none;
+    }
+
+    .published_bottom1_cont {
+        display: none;
+    }
+
+    .published_bottom1_image {
+        display: none;
+    }
+
+    .bottom1_image {
+        display: none;
+    }
+
+    .published_bottom1_p1 {
+        display: none;
+    }
+
+    .published_bottom1_p1_cc,
+    .published_bottom1_p2_cc,
+    .published_bottom1_p3_cc {
+        color: #FFFFFF;
+    }
+
+    .published_bottom1_p2 {
+        display: none;
+    }
+
+    .published_bottom1_p3 {
+        display: none;
+    }
+
+    .published_bottom2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .published_bottom2_cc p {
+        color: #FFFFFF;
+    }
+
+}

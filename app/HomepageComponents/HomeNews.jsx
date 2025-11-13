@@ -3,6 +3,7 @@ import styles from '../HomepageComponents/styles/homenews.module.css';
 import PublishCard from '../HomepageComponents/PublishCard';
 import Image from "next/image";
 import Link from 'next/link';
+import NewsResponsive from './NewsResponsive';
 
 const HomeNews = () => {
     return (
@@ -14,6 +15,23 @@ const HomeNews = () => {
                         view more
                     </Link>
                 </p>
+            </div>
+            <div className={styles.news_res}>
+                <NewsResponsive
+                    para1='FOOD & DRINK'
+                    para2='Ramadan 2025: Step inside NOT a MAJLIS by NOT a SPACE at 25hrs Hotel'
+                    para3='Running throughout Ramadan from 6:30 p.m. until 3 a.m., this rooftop terrace transforms into a contemporary space'
+                />
+                <NewsResponsive
+                    para1='FOOD & DRINK'
+                    para2='Join the HUNTR for an exclusive preview of the One&Only Royal Mirage iftar experience'
+                    para3='Fresh-baked Scandinavian treats in Dubai: From cardamom-spiced cinnamon rolls to za_atar buns, ...'
+                />
+                <NewsResponsive
+                    para1='FOOD & DRINK'
+                    para2='Ramadan 2025: Step inside NOT a MAJLIS by NOT a SPACE at 25hrs Hotel'
+                    para3='Running throughout Ramadan from 6:30 p.m. until 3 a.m., this rooftop terrace transforms into a contemporary space'
+                />
             </div>
             <div className={styles.news_top}>
                 <PublishCard

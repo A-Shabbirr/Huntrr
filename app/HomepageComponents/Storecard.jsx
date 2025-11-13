@@ -10,7 +10,8 @@ const Storecard = ({ src = { src }, para1 = '', para2 = '' }) => {
                     src={src}
                     alt='Items in our Store'
                     width={1000}
-                    height={1000} />
+                    height={1000}
+                    quality={100} />
             </div>
             <div className={styles.paraDiv}>
                 <p className={styles.para1}>{para1}</p>

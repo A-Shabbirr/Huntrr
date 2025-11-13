@@ -55,3 +55,70 @@
     vertical-align: middle;
 
 }
+
+@media (max-width:599px) {
+    .storecard {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        padding-top: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        background-color: #F3F4F6;
+        width: 200px;
+        gap: 40px;
+        height: 290px;
+    }
+
+    .image_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+        width: 100%;
+    }
+
+    .place_image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .paraDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        gap: 8px;
+    }
+
+    .para1 {
+        width: 100%;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 12.59px;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+        color: #111111;
+    }
+
+    .para2 {
+        width: 100%;
+        color: #353934;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 11.2px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+}

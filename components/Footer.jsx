@@ -18,22 +18,22 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className={styles.first}>
-                        <p className={styles.lead_p}>the Huntrr</p>
-                        <div className={styles.type_p_div}>
-                            <p className={styles.type_p}>About</p>
-                            <p className={styles.type_p}>Meet the Huntrr</p>
-                            <p className={styles.type_p}>Contact</p>
-                            <p className={styles.type_p}>FAQs</p>
-                            <p className={styles.type_p}>Editorial Policy</p>
-                        </div>
-                    </div>
-                    <div className={styles.first}>
                         <p className={styles.lead_p}>Legal</p>
                         <div className={styles.type_p_div}>
                             <p className={styles.type_p}>Terms of Use(EULA)</p>
                             <p className={styles.type_p}>Privacy Policy</p>
                             <p className={styles.type_p}>Terms of Sale</p>
                             <p className={styles.type_p}>Rule of Use</p>
+                            <p className={styles.type_p}>Editorial Policy</p>
+                        </div>
+                    </div>
+                    <div className={styles.first_1}>
+                        <p className={styles.lead_p}>the Huntrr</p>
+                        <div className={styles.type_p_div}>
+                            <p className={styles.type_p}>About</p>
+                            <p className={styles.type_p}>Meet the Huntrr</p>
+                            <p className={styles.type_p}>Contact</p>
+                            <p className={styles.type_p}>FAQs</p>
                             <p className={styles.type_p}>Editorial Policy</p>
                         </div>
                     </div>
@@ -48,7 +48,6 @@ const Footer = () => {
                             vector={styles.vector}
                             placeholder="Enter your email"
                         />
-
                     </div>
                     <div className={styles.buttons}>
                         <FooterButton src='/Google_logo.png' alt='Playstore' />
@@ -57,7 +56,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.third}>
-                <Image
+                <Image className={styles.third_image}
                     src="/FooterLogo.png"
                     alt="Hunterr"
                     width={1000}

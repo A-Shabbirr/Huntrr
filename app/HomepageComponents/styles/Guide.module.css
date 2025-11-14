@@ -94,7 +94,12 @@
     align-items: flex-start;
     height: 100%;
     gap: 48px;
-
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f0f0f0;
+    scroll-snap-type: x mandatory;
 }
 
 .f_i_1 {
@@ -271,6 +276,7 @@
         align-items: center;
         width: 100%;
         gap: 24px;
+        margin: 20px 0px;
     }
 
     .guide_top {
@@ -279,7 +285,6 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        background-color: red;
         width: 100%;
     }
 
@@ -360,13 +365,12 @@
         justify-content: flex-start;
         align-items: flex-start;
         height: 100%;
-        gap: 48px;
+        padding-bottom: 10px;
 
     }
 
     .f_i_1 {
         flex: 0 0 auto;
-        background-color: yellow;
         position: relative;
         display: flex;
         gap: 24px;
@@ -374,6 +378,8 @@
         justify-content: flex-start;
         align-items: flex-start;
         width: 300px;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
     }
 
 
@@ -393,11 +399,12 @@
     }
 
     .f_i_2 {
-        gap: 24px;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
+        gap: 20px;
     }
 
     .f_g_2a {
@@ -407,7 +414,10 @@
         justify-content: flex-start;
         align-items: flex-start;
         gap: 24px;
-        width: 100%;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        width: 300px;
+        flex: 0 0 auto;
     }
 
     .guide_image2 {
@@ -416,7 +426,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 306px;
+        height: 211px;
     }
 
 
@@ -465,7 +475,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 306px;
+        height: 211px;
     }
 
     .image_right_bot {

@@ -123,3 +123,9 @@
     width: 100%;
     object-fit: contain;
 }
+
+@media (max-width:599px) {
+    .maroon {
+        display: none;
+    }
+}

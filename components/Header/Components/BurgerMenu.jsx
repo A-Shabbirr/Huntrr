@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/BurgerMenu.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,7 @@ const BurgerMenu = () => {
             </svg>
             {
                 isOpen && (
-                    <div className={styles.veil}>
+                    <div className={styles.veil} onClick={toggleMenu}>
                         <div className={styles.close} >
                             <>
                                 <Image
@@ -43,6 +44,23 @@ const BurgerMenu = () => {
                             <p onClick={toggleMenu}>×</p>
                         </div>
                         <div className={styles.menuList}>
+                            <div className={styles.Header_links}>
+                                <p className={styles.link1}>
+                                    <Link href='/directory'>
+                                        <span>the</span> Directory
+                                    </Link>
+                                </p>
+                                <p className={styles.link1}>
+                                    <Link href='/news'>
+                                        News
+                                    </Link>
+                                </p>
+                                <p className={styles.link1}>
+                                    <Link href='/guides'>
+                                        Guides
+                                    </Link>
+                                </p>
+                            </div>
                             <div className={styles.menu}>
                                 <p className={styles.head}>Explore Places</p>
                                 <div className={styles.para}>

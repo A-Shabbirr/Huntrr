@@ -271,4 +271,30 @@
         height: 100%;
         object-fit: contain;
     }
+
+
+
+    .lead_p span {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+        text-transform: lowercase;
+    }
+
+
+    .type_p span {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+        text-transform: lowercase;
+    }
+
 }

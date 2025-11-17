@@ -45,12 +45,14 @@ const page = () => {
                 </div>
                 <div className={styles.news_1}>
                     <div className={styles.news1_top}>
-                        <Image className={styles.news1_image}
-                            src='/news_1.png'
-                            alt='cafe'
-                            width={1000}
-                            height={1000}
-                            quality={100} />
+                        <div className={styles.news1_top_div}>
+                            <Image className={styles.news1_image}
+                                src='/news_1.png'
+                                alt='cafe'
+                                width={1000}
+                                height={1000}
+                                quality={100} />
+                        </div>
                         <div className={styles.news1_para}>
                             <p className={styles.news_1_p}>local news</p>
                             <p className={styles.news_1_h}>Bolle Dubai: The best Nordic cinnamon rolls and homemade bakes in Al Manara</p>
@@ -83,7 +85,7 @@ const page = () => {
 
                 </div>
             </div>
-            <NewsFooter para='' />
+            <NewsFooter para='the Hunter: City Guide App Has 600% More Content, Exclusively For Members' />
         </div >
     );
 }

@@ -3,6 +3,7 @@ import styles from "../components/styles/Footer.module.css";
 import Image from 'next/image';
 import Input from '../components/input';
 import FooterButton from './FooterButton';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -12,9 +13,22 @@ const Footer = () => {
                     <div className={styles.first}>
                         <p className={styles.lead_p}>Explore</p>
                         <div className={styles.type_p_div}>
-                            <p className={styles.type_p}>the Directory</p>
-                            <p className={styles.type_p}>News</p>
-                            <p className={styles.type_p}>Membership</p>
+                            <p className={styles.type_p}>
+                                <Link href='/directory'>
+                                    <span>the</span> Directory
+                                </Link>
+                            </p>
+                            <p className={styles.type_p}>
+                                <Link href='/news'>
+                                    News
+                                </Link>
+
+                            </p>
+                            <p className={styles.type_p}>
+                                <Link href='/membership'>
+                                    Membership
+                                </Link>
+                            </p>
                         </div>
                     </div>
                     <div className={styles.first}>
@@ -28,7 +42,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className={styles.first_1}>
-                        <p className={styles.lead_p}>the Huntrr</p>
+                        <p className={styles.lead_p}><span>the</span> Huntrr</p>
                         <div className={styles.type_p_div}>
                             <p className={styles.type_p}>About</p>
                             <p className={styles.type_p}>Meet the Huntrr</p>

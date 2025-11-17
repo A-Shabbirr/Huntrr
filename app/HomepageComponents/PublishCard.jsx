@@ -10,7 +10,8 @@ const PublishCard = ({ src, para1 = '', para2 = '', para3 = '', center = false }
                     src={src}
                     alt='Restaurants & Cafes in Dubai & Sharjah'
                     width={1000}
-                    height={1000} />
+                    height={1000}
+                    quality={100} />
             </div>
             <div className={styles.publish_cont}>
                 <p className={styles.newspara1 ? styles.newspara1 : styles.para1}>{para1}</p>

@@ -10,7 +10,7 @@ const PageNumber = () => {
             <button className={styles.activenumber}>
                 <p className={styles.activenumber_p}>1</p>
             </button>
-            <button className={styles.number}>
+            <button className={styles.number2}>
                 <p className={styles.number_p}>2</p>
             </button>
             <button className={styles.number}>

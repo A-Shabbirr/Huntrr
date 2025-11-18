@@ -281,7 +281,7 @@
         width: 100%;
         padding: 0px 16px;
         gap: 28px;
-        background-color: yellow;
+        margin: 0;
     }
 
     .e_cat_top {

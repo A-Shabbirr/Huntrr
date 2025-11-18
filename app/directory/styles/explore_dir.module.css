@@ -152,7 +152,6 @@
 
 @media (max-width:599px) {
     .explore_dir {
-        background-color: yellow;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -90,6 +90,7 @@ const page = () => {
                     leftpara1='Food & Drink'
                     leftpara2='Your ultimate guide to Ramadan 2025 in DUbai'
                     explore='10 Places'
+                    explore2='20 Places'
                 />
             </div>
         </div>

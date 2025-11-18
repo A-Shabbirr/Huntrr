@@ -157,8 +157,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: red;
-        gap: 24px;
+        gap: 30px;
         margin: 0;
         padding: 0;
     }
@@ -166,21 +165,26 @@
     .top {
         height: 50px;
         width: 100%;
-        background-color: greenyellow;
     }
 
     .directory_head {
-        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         color: #4A5B6D;
         width: 100%;
-        margin: 20px 0px;
-        padding: 0px 43px;
+        padding: 0px 16px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
     }
 
+    .directory_heading {
+        text-align: center;
+        width: 100%;
+    }
 
     .s_t {
         font-weight: 400;
@@ -214,12 +218,12 @@
 
     .directory_card {
         padding: 0;
+        margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: orange;
         gap: 24px;
 
     }
@@ -243,7 +247,7 @@
     }
 
     .Newly_add {
-        padding: 0px 16px;
+        padding: 28px 16px;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -282,7 +286,6 @@
         width: 100%;
         padding: 0px 16px;
         margin: 0;
-        background-color: yellow;
     }
 
     .Adspace,
@@ -301,6 +304,17 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    .dir_cur {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 16px;
+        margin: 0;
+        width: 100%;
+
     }
 
 }

@@ -11,7 +11,6 @@ const AboutUs_dir = () => {
                     <div className={styles.top_d_circle}></div>
                     <p className={styles.top_d_para}>About us</p>
                 </div>
-
                 <div className={styles.center_d_app}>
                     <p className={styles.center_d_para}>
                         the <span>HUNTR</span> Directory is the UAE's most selective guide, featuring over 1,000+ carefully chosen places across Dubai and the Emirates – with new discoveries added weekly. Every establishment here has earned the <span>HUNTR's</span> coveted Seal of Approval.
@@ -20,7 +19,6 @@ const AboutUs_dir = () => {
                         What you see here is just a preview. The full experience – complete with granular search, member perks, and exclusive content – lives on the <span>HUNTR</span>: City Guide app.
                     </p>
                 </div>
-
                 <div className={styles.bottom_d_app}>
                     <Button para="Download App" />
                 </div>

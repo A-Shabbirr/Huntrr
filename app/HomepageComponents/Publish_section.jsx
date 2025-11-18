@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Publish_section = ({ heading = '', cc = false }) => {
     return (
-        <div className={styles.published_section}>
+        <div className={`${styles.published_section} ${cc ? styles.published_section_cc : ''}`}>
             <div className={`${styles.published_top} ${cc ? styles.published_top_cc : ''}`}>
                 <p className={`${styles.published_top_head_p} ${cc ? styles.published_top_head_p_cc : ''}`}>{heading}</p>
                 <p className={`${styles.published_top_head_vm} ${cc ? styles.published_top_head_vm_cc : ''}`}>
@@ -32,9 +32,9 @@ const Publish_section = ({ heading = '', cc = false }) => {
                     </div>
                 </div>
                 <div className={`${styles.published_bottom2} ${cc ? styles.published_bottom2_cc : ''}`}                >
-                    <PublishCard src='/Cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
-                    <PublishCard src='/Cafe2.png' para1="RESTAURANT IN ABU DHABI" />
-                    <PublishCard src='/Cafe3.png' para1="CAFE IN SHARJAH" />
+                    <PublishCard src='/Cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" cc={true} />
+                    <PublishCard src='/Cafe2.png' para1="RESTAURANT IN ABU DHABI" cc={true} />
+                    <PublishCard src='/Cafe3.png' para1="CAFE IN SHARJAH" cc={true} />
                 </div>
             </div>
         </div>

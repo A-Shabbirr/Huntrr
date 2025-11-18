@@ -61,12 +61,12 @@
     .navbar {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         width: 100%;
-        height: 30px;
-        padding: 0px 16px;
-        margin: 24px 0px;
+        height: 100%;
+        padding: 24px 16px;
+        background-color: yellow;
     }
 
     .logo {

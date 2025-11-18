@@ -21,7 +21,8 @@ const page = () => {
             <Cafe />
             <div className={styles.cafe_guide_section}>
                 <Guide
-                    heading='Discover More Curated Guides'
+                    heading1='Discover More Curated Guides'
+                    heading2=''
                     leftpara1='Cafes & Coffee Shops'
                     leftpara2='Trending dining spots across the UAE'
                     para1a='Hidden Gems'

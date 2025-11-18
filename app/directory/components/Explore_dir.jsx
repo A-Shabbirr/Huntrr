@@ -56,20 +56,6 @@ const Explore_dir = () => {
                         <p className={styles.exp_p}>Cozy brunch spot with the best croissants in town.</p>
                     </div>
                 </div>
-                {/* <div className={styles.explore_2}>
-                        <div className={styles.explore_img_div_c}>
-                            <Image
-                                className={styles.explore_image_c}
-                                src='/guide2a.png'
-                                alt='Explore Cafes & Restaurants'
-                                width={1000}
-                                height={1000} />
-                        </div>
-                        <div className={styles.explore_cnt_div}>
-                            <p className={styles.exp_head}>Cafes & Specialty Coffee</p>
-                            <p className={styles.exp_p}>Cozy brunch spot with the best croissants in town.</p>
-                        </div>
-                    </div> */}
             </div>
         </div>
     );

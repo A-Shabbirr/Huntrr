@@ -2,12 +2,15 @@ import React from 'react';
 import styles from '../HomepageComponents/styles/Guide.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-const Guide = ({ heading, leftpara1, leftpara2, para1a, para1b, para2a, para2b, explore, explore2, dir = false, cafe = false }) => {
+const Guide = ({ heading1, heading2, leftpara1, leftpara2, para1a, para1b, para2a, para2b, explore, explore2, dir = false, cafe = false }) => {
     return (
         <div className={styles.guide}>
             <div className={styles.guide_top}>
                 <div className={styles.guide_para}>
-                    <p className={styles.guide_head_p}>{heading}</p>
+                    <div className={styles.guide_head_para}>
+                        <p className={styles.guide_head_p1}>{heading1}</p>
+                        <p className={styles.guide_head_p2}>{heading2}</p>
+                    </div>
                     <p className={styles.guide_head_vm}>
                         <Link href={cafe ? "/Latest-Guides" : "/Guides"}>
                             view more

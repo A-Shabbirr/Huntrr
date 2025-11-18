@@ -152,9 +152,30 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .published_section_cc {
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .published_top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .published_top_cc {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -248,6 +269,22 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .published_bottom2_cc {
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: thin;
+        scrollbar-color: #888 #f0f0f0;
+        scroll-snap-type: x mandatory;
         gap: 24px;
         width: 100%;
     }

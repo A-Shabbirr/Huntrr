@@ -8,8 +8,10 @@ const E_cat_dir = () => {
         <div className={styles.e_cat}>
             <div className={styles.e_cat_top}>
                 <p className={styles.e_cat_top_head}>Explore by Category</p>
-                <p className={styles.e_cat_top_p}>To unlock the full HUNTR Directory get a HUNTR Membership via the HUNTR: City Guide app </p>
-                <div className={styles.e_cat_top_b}>  <Button para="Download App" /></div>
+                <p className={styles.e_cat_top_p}>To unlock the full <span>HUNTR</span> Directory get a <span>HUNTR</span> Membership via the <span>HUNTR</span>: City Guide app </p>
+                <div className={styles.e_cat_top_b}>
+                    <Button exp={true} para="Download App" />
+                </div>
             </div>
             <div className={styles.e_cat_bot}>
                 <div className={styles.e_cat_bot_1}>
@@ -52,7 +54,8 @@ const E_cat_dir = () => {
                             <div className={styles.e_cat_bot_2_scroll_svg_1}>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     fill='#F5F3DE'
-                                    viewBox="0 0 640 640" className={styles.e_cat_bot_2_scroll_svg_arrow}>
+                                    viewBox="0 0 640 640"
+                                    className={styles.e_cat_bot_2_scroll_svg_arrow}>
                                     <path d="M73.4 297.4C60.9 309.9 60.9 330.2 73.4 342.7L233.4 502.7C245.9 515.2 266.2 515.2 278.7 502.7C291.2 490.2 291.2 469.9 278.7 457.4L173.3 352L544 352C561.7 352 576 337.7 576 320C576 302.3 561.7 288 544 288L173.3 288L278.7 182.6C291.2 170.1 291.2 149.8 278.7 137.3C266.2 124.8 245.9 124.8 233.4 137.3L73.4 297.3z" />
                                 </svg>
                             </div>

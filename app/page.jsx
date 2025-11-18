@@ -114,7 +114,8 @@ export default function Home() {
       </div>
       <div className={styles.home_guide}>
         <Guide
-          heading='The latest curated guides'
+          heading1='The latest curated guides'
+          heading2=''
           para1a='La Petite Café'
           para1b='Cozy brunch spot with the best croissants in town.'
           para2a='La Petite Café'

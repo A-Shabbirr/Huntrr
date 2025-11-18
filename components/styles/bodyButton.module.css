@@ -92,4 +92,16 @@
 
     }
 
+    .bodyButton_exp {
+        font-weight: 600;
+        background-color: #A72C2C;
+        color: white;
+        border: none;
+        width: 100%;
+        border: 1px solid #1111111A;
+        height: 40px;
+        border-radius: 28px;
+        cursor: pointer;
+        padding: 8px 16px;
+    }
 }

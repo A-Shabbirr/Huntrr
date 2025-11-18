@@ -150,3 +150,157 @@
     object-fit: cover;
 }
 
+@media (max-width:599px) {
+    .directory {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: red;
+        gap: 24px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .top {
+        height: 50px;
+        width: 100%;
+        background-color: greenyellow;
+    }
+
+    .directory_head {
+        background-color: yellow;
+        color: #4A5B6D;
+        width: 100%;
+        margin: 20px 0px;
+        padding: 0px 43px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    .s_t {
+        font-weight: 400;
+        font-style: italic;
+        font-size: 29px;
+        line-height: 38.88px;
+        letter-spacing: 0%;
+        text-align: center;
+
+    }
+
+    .s_d {
+        font-weight: 500;
+        font-style: Regular;
+        font-size: 29px;
+        line-height: 38.88px;
+        letter-spacing: 0%;
+        text-align: center;
+
+    }
+
+    .s_h {
+        font-weight: 600;
+        font-style: Regular;
+        font-size: 29px;
+        line-height: 38.88px;
+        letter-spacing: 0%;
+        text-align: center;
+
+    }
+
+    .directory_card {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: orange;
+        gap: 24px;
+
+    }
+
+    .cards {
+        padding: 0px 16px;
+        scroll-padding-left: 16px;
+        padding-bottom: 8px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: thin;
+        scrollbar-color: #888 #f0f0f0;
+        scroll-snap-type: x mandatory;
+    }
+
+    .Newly_add {
+        padding: 0px 16px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #4B6F8F;
+        gap: 31px;
+    }
+
+    .new_read {
+        display: none;
+    }
+
+    .new_filter {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 7px;
+    }
+
+    .new_publish {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .dir_Trending {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        width: 100%;
+        padding: 0px 16px;
+        margin: 0;
+        background-color: yellow;
+    }
+
+    .Adspace,
+    .Adspace2 {
+        width: 100%;
+        height: 193px;
+    }
+
+    .Adspace_img2 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .Adspace_img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}

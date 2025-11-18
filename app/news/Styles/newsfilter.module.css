@@ -75,4 +75,26 @@
         margin: 10px;
     }
 
+    .filter_w {
+        border: 1px solid #FCFCFD;
+        border-radius: 100px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: max-content;
+        min-width: max-content;
+    }
+
+    .p_filter_w {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 13.39px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: bottom;
+        color: #FCFCFD;
+    }
 }

@@ -37,21 +37,21 @@ const page = () => {
                     <NewsFilter w={true} para='Filter & Sort by' />
                     <NewsFilter w={true} para='The Huntr Club Benefits' />
                     <NewsFilter w={true} para='Trending Places' />
-                    <NewsFilter w={true} para='Cafes' />
-                    <NewsFilter w={true} para='Restaurants' />
                     <NewsFilter w={true} para='Speciality Coffee' />
+                    <NewsFilter w={true} para='Restaurants' />
+                    <NewsFilter w={true} para='Cafes' />
                     <NewsFilter w={true} para='Bars & Nightlife' />
                     <NewsFilter w={true} para='Outdoor Activities' />
                 </div>
                 <div className={styles.new_publish}>
                     <Publish_section heading='Newly added' cc={true} />
                 </div>
-
             </div>
             <div className={styles.dir_Trending}>
                 <Guide
                     dir={true}
-                    heading='Trending Now: Discover the best of the UAE'
+                    heading1='Trending Now:'
+                    heading2='Discover the best of the UAE'
                     para1a='Hidden gems'
                     para1b='Dubai’s newest rooftop bar with stunning skyline views.'
                     para2a='Sky Lounge'
@@ -81,7 +81,8 @@ const page = () => {
             <div className={styles.dir_cur}>
                 <Guide
                     dir={true}
-                    heading='Curated Guides'
+                    heading1='Curated Guides'
+                    heading2=''
                     para1a='Food & Drink'
                     para1b='Your ultimate guide to Ramadan 2025 in DUbai'
                     para2a='Outdoor Activities'

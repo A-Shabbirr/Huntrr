@@ -9,6 +9,7 @@ const Membership_store_comp = ({ src, alt, Title }) => {
             <div className={styles.MS_comp_top}>
                 <div className={styles.MS_comp_1}>
                     <svg
+                    className={styles.MS_comp_1_svg}
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 640"
                         height='20'
@@ -28,6 +29,7 @@ const Membership_store_comp = ({ src, alt, Title }) => {
             <div className={styles.MS_comp_3}>
                 <div className={styles.MS_comp_3a}>
                     <svg
+                    className={styles.MS_comp_3a_svg}
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 640"
                         height='20'

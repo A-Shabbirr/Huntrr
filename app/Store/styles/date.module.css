@@ -89,3 +89,100 @@
     vertical-align: bottom;
     color: #111111;
 }
+
+@media (max-width:599px) {
+    .date {
+        border: 0.5px solid #111111;
+        border-collapse: collapse;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding: 6px;
+    }
+
+    .date_modified {
+        cursor: pointer;
+        border: 0.5px solid #111111;
+        background-color: #fdd1d1;
+        border: 0.5px solid #111111;
+        border-collapse: collapse;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding: 6px;
+    }
+
+    .date:nth-child(7n) {
+        border-right: 1px solid #111111;
+    }
+
+    .date:nth-last-child(-n+7) {
+        border-bottom: 1px solid #111111;
+    }
+
+    .date_top {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+
+    .date_top_p {
+        z-index: 2;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: bottom;
+        color: #111111;
+    }
+
+    .date_mid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .image {
+        transform: rotate(-10deg);
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        width: 100%;
+        height: 25px;
+
+    }
+
+    .date_bot {
+        z-index: 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+
+    .date_bot_p {
+        width: 100%;
+        font-weight: 400;
+        font-style: Regular;
+        font-size:6px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: bottom;
+        color: #111111;
+    }
+
+}

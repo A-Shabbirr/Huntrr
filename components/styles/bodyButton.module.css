@@ -50,7 +50,8 @@
         background-color: #A72C2C;
         color: white;
         border: none;
-        width: 144px;
+        width: 100%;
+        /* width: 144px; */
         border: 1px solid #1111111A;
         height: 40px;
         border-radius: 28px;
@@ -71,12 +72,13 @@
 
     .para_b {
         color: #FFFFFF;
-        font-weight: 500;
-        font-style: Medium;
+        font-weight: 600;
+        font-style: Semi Bold;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 124%;
         letter-spacing: 0%;
-        vertical-align: bottom;
+        vertical-align: middle;
+        text-transform: capitalize;
 
     }
 

@@ -42,6 +42,7 @@ const BestSellers = ({ src, alt, size, Title, detail, EC = false, bgImage, end =
             <div className={styles.BS_comp_3}>
                 <div className={styles.BS_comp_3a}>
                     <svg
+                        className={styles.BS_comp_3a_svg}
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 640"
                         height='20'

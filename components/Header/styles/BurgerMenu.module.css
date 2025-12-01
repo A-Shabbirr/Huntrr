@@ -20,12 +20,14 @@
     background-color: #fff;
     box-shadow: -6px 0 20px rgba(0, 0, 0, 0.25);
     z-index: 3000;
-    /* Ensure it’s above EVERYTHING */
     transition: transform 0.3s ease-in-out;
     overflow-y: auto;
 }
 
-/* Close (X) Button */
+.veil:focus {
+    outline: none;
+}
+
 .close {
     display: flex;
     flex-direction: row;
@@ -69,6 +71,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    overflow-y: auto;
 
 }
 

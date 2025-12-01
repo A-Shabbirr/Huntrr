@@ -1,21 +1,27 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import styles from '../styles/BurgerMenu.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
-
-    const toggleMenu = () => {
+    const menuRef = useRef();
+    const toggleMenu = (e) => {
         setIsOpen(prev => !prev);
+        if (e?.stopPropagation) e.stopPropagation();
     };
     useEffect(() => {
         if (isOpen) {
             document.body.classList.add('no-scroll');
         } else {
             document.body.classList.remove('no-scroll');
+        }
+    }, [isOpen]);
+    useEffect(() => {
+        if (isOpen) {
+            menuRef.current?.focus();
         }
     }, [isOpen]);
 
@@ -30,7 +36,27 @@ const BurgerMenu = () => {
             </svg>
             {
                 isOpen && (
-                    <div className={styles.veil} onClick={toggleMenu}>
+                    <div
+                        ref={menuRef}
+                        tabIndex={0}
+                        className={styles.veil}
+                        onClick={(e) => e.stopPropagation()}
+                        onMouseDown={(e) => {
+                            if (e.button === 1) e.preventDefault();
+                        }}
+                        onKeyDown={(e) => {
+                            if (e.key === "Escape") toggleMenu();
+                            if (e.key === "ArrowDown") {
+                                e.preventDefault();
+                                e.currentTarget.scrollTop += 40;
+                            }
+                            if (e.key === "ArrowUp") {
+                                e.preventDefault();
+                                e.currentTarget.scrollTop -= 40;
+                            }
+                        }}
+                    >
+
                         <div className={styles.close} >
                             <>
                                 <Image
@@ -43,20 +69,34 @@ const BurgerMenu = () => {
                             </>
                             <p onClick={toggleMenu}>×</p>
                         </div>
-                        <div className={styles.menuList}>
+                        <div className={styles.menuList}
+                            onClick={(e) => {
+                                e.stopPropagation()
+                                toggleMenu()
+                            }}>
                             <div className={styles.Header_links}>
                                 <p className={styles.link1}>
-                                    <Link href='/directory'>
+                                    <Link href='/directory'
+                                        onClick={(e) => {
+                                            e.stopPropagation()
+                                            toggleMenu()
+                                        }}>
                                         <span>the</span> Directory
                                     </Link>
                                 </p>
                                 <p className={styles.link1}>
-                                    <Link href='/news'>
+                                    <Link href='/news' onClick={(e) => {
+                                        e.stopPropagation()
+                                        toggleMenu()
+                                    }}>
                                         News
                                     </Link>
                                 </p>
                                 <p className={styles.link1}>
-                                    <Link href='/guides'>
+                                    <Link href='/guides' onClick={(e) => {
+                                        e.stopPropagation()
+                                        toggleMenu()
+                                    }}>
                                         Guides
                                     </Link>
                                 </p>

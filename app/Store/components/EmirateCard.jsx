@@ -52,7 +52,7 @@ const EmirateCard = () => {
                                 quality={100} />
                         </div>
                         <div className={styles.close} onClick={close}>
-                            <svg xmlns="http://www.w3.org/2000/svg"
+                            <svg xmlns="http://www.w3.org/2000/svg" className={styles.close_svg}
                                 viewBox="0 0 640 640"
                                 width='20'
                                 height='20'

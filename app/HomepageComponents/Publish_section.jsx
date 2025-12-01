@@ -32,9 +32,9 @@ const Publish_section = ({ heading = '', cc = false }) => {
                     </div>
                 </div>
                 <div className={`${styles.published_bottom2} ${cc ? styles.published_bottom2_cc : ''}`}                >
-                    <PublishCard src='/Cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" cc={true} />
-                    <PublishCard src='/Cafe2.png' para1="RESTAURANT IN ABU DHABI" cc={true} />
-                    <PublishCard src='/Cafe3.png' para1="CAFE IN SHARJAH" cc={true} />
+                    <PublishCard src='/Cafe1.png' para1="CAFE & SPECIALTY COFFEE IN DUBAI" />
+                    <PublishCard src='/Cafe2.png' para1="RESTAURANT IN ABU DHABI" />
+                    <PublishCard src='/Cafe3.png' para1="CAFE IN SHARJAH" />
                 </div>
             </div>
         </div>

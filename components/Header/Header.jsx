@@ -98,16 +98,6 @@ const Header = () => {
                                 ) : ''
                     }
                 </div>
-                <div className={styles.veil}>
-                    <div className={styles.closeButton} >
-                        <p>X</p>
-                        <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Contact</li>
-                        </ul>
-                    </div>
-                </div>
             </div >
         </div >
     );

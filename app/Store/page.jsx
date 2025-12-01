@@ -120,6 +120,11 @@ const page = () => {
                     <BestSellers end={true} src='/end4.png' alt='Guide' Title='Guide Name' />
                     <BestSellers end={true} src='/end3.png' alt='Guide' Title='Guide Name' />
                 </div>
+                <div className={styles.end_store_div_res}>
+                    <Membership_store_comp src='/C1.png' Title='Annual Membership' alt='Annual Membership' />
+                    <Membership_store_comp src='/C2.png' Title='Tourist Pass' alt='Tourist Pass' />
+                    <Membership_store_comp src='/C3.png' Title='Biannual Membership' alt='Biannual Membership' />
+                </div>
             </div>
         </div >
     );

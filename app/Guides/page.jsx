@@ -1,20 +1,34 @@
 import React from 'react';
-import Hero from '@/components/Hero';
 import styles from '../Guides/guidesComp.module.css';
 import Body from './components/Body';
 import Location from './components/Location';
 import Cafe from './components/Cafe';
 import Guide from '../HomepageComponents/Guide';
 import NewsFooter from '../news/NewsComponents/NewsFooter';
+import Image from 'next/image';
+import Filter from '../[slug]/components/Filter';
 
 const page = () => {
     return (
         <div className={styles.guides}>
             <div className={styles.bgc}></div>
             <div className={styles.top}>
-                <Hero src='/Homepage_cover.jpg' alt='Dowload our App' />
+                <p className={styles.top_p}>Download our App . Download our App . Download our App</p>
+                <div className={styles.top_Image_div}>
+                    <Image className={styles.top_Image}
+                        src='/Hero.png'
+                        alt='Dowload our App'
+                        width={1000}
+                        height={1000}
+                        quality={100} />
+                </div>
             </div>
             <Body />
+            <div className={styles.filter}>
+                <Filter para='Food & Drink' />
+                <Filter para='Outdoor Activities' />
+                <Filter para='Outdoor Activities' />
+            </div>
             <Location />
             <Cafe />
             <Cafe />
